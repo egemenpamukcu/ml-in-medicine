@@ -10,7 +10,6 @@ The project contains Jupyter Notebooks with Python code and printed outputs. Eac
 
 - `hw1` folder contains code demonstrating a single file download from the 'files' endpoint of gdc.cancer.gov API, as well as some exploratory analysis on RNE-seq data for a single sample.
 - `hw2` folder contains the code for batch downloading from GDC API, concatenating multiple samples of RNE-seq data. Later, the RNE-sequences are clustered and these clusters are visualized using t-SNE for dimensionality reduction, and `scikit-learn` implementations of K-Means, DBSCAN, and Agglomerative Clustering for unsupervised learning.
-- `hw2` folder contains the code for batch downloading from GDC API, concatenating multiple samples of RNE-seq data. Later, the RNE-sequences are clustered and these clusters are visualized using t-SNE for dimensionality reduction, and `scikit-learn` implementations of K-Means, DBSCAN, and Agglomerative Clustering for unsupervised learning.
 - `hw3`
   - `predicting-tumor`
     - In this notebook I build models that takes RNAseq profiles from matched normal-tumor pairs and classifies the sample as Normal or Tumor. I try to do this task using two different subsets of the feature space: firstly using the complete gene expression data available, and later using only the expressions of protein encoding genes and compare results.
